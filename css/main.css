@@ -1,48 +1,53 @@
 /*		Fonts		*/
-
 @font-face {
-	font-family: 'open_regular';
-	src: url('../fonts/opensans-regular.eot');
-	src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/opensans-regular.woff') format('woff'),
-		url('../fonts/opensans-regular.ttf') format('truetype'),
-		url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'open_regular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
 
 @font-face {
-	font-family: 'open_bold';
-	src: url('../fonts/opensans-bold.eot');
-	src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/opensans-bold.woff') format('woff'),
-		url('../fonts/opensans-bold.ttf') format('truetype'),
-		url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'open_bold';
+    src: url('../fonts/opensans-bold.eot');
+    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold.woff') format('woff'),
+         url('../fonts/opensans-bold.ttf') format('truetype'),
+         url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
 
 @font-face {
-	font-family: 'open_semibold';
-	src: url('../fonts/opensans-semibold.eot');
-	src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/opensans-semibold.woff') format('woff'),
-		url('../fonts/opensans-semibold.ttf') format('truetype'),
-		url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'open_semibold';
+    src: url('../fonts/opensans-semibold.eot');
+    src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold.woff') format('woff'),
+         url('../fonts/opensans-semibold.ttf') format('truetype'),
+         url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
 
 
+
+
+
+
+section, footer {
+	background: #fffcfc;
+}
 
 /*		General CSS		*/
-
 body{
 	background: #20866e;
 	padding: 0px;
@@ -60,9 +65,10 @@ a:focus{
 
 
 
-section, footer {
-	background: #fffcfc;
-}
+
+
+
+
 
 
 
@@ -82,16 +88,16 @@ header{
 }
 
 header {
-position: relative;
-height: 150px;
-background-image: linear-gradient(#23a94c00, #248888);
-clip-path: polygon(
-	0 0,
-	100% 0,
-	100% 100%,
-	0 calc(100% - 4vw)
-);
-/* change the calc height to a percentage height to get alternate responsive behavior*/
+  position: relative;
+  height: 150px;
+  background-image: linear-gradient(#23a94c00, #248888);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 4vw)
+  );
+  /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 
 header .logo{
@@ -178,6 +184,11 @@ header .social li{
 header .social li:first-child{
 	margin: 0;
 }
+
+
+
+
+
 
 
 
@@ -309,40 +320,43 @@ a.app_link{
 
 
 .about_video{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: rgba(0, 0, 0, .8);
-	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .8);
+    display: none;
 }
 
 .about_video iframe{
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
 }
 
 .close_video{
-	text-decoration: none;
-	position: absolute;
-	width: 38px;
-	height: 38px;
-	top: 50px;
-	right: 50px;
-	background: url('../img/close_video.png') no-repeat;
-	z-index: 9999;
+    text-decoration: none;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50px;
+    right: 50px;
+    background: url('../img/close_video.png') no-repeat;
+    z-index: 9999;
 }
 
 .enhance {
-color: white;
-text-transform: uppercase;
-padding: 4px;
-font-size: 1.4em;
-font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+  padding: 4px;
+  font-size: 1.4em;
+  font-weight: bolder;
 }
+
+
+
 
 
 
